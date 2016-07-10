@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BEB5BF71D31F962006FBDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB5BF61D31F962006FBDB8 /* AppDelegate.swift */; };
+		2BEB5BF91D31F962006FBDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB5BF81D31F962006FBDB8 /* ViewController.swift */; };
+		2BEB5BFC1D31F962006FBDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB5BFA1D31F962006FBDB8 /* Main.storyboard */; };
+		2BEB5BFE1D31F962006FBDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB5BFD1D31F962006FBDB8 /* Assets.xcassets */; };
+		2BEB5C011D31F962006FBDB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB5BFF1D31F962006FBDB8 /* LaunchScreen.storyboard */; };
+		2BEB5C0C1D31F962006FBDB8 /* SocialTDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB5C0B1D31F962006FBDB8 /* SocialTDTests.swift */; };
+		2BEB5C171D31F962006FBDB8 /* SocialTDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB5C161D31F962006FBDB8 /* SocialTDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BEB5C081D31F962006FBDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BEB5BEB1D31F961006FBDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BEB5BF21D31F961006FBDB8;
+			remoteInfo = SocialTD;
+		};
+		2BEB5C131D31F962006FBDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BEB5BEB1D31F961006FBDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BEB5BF21D31F961006FBDB8;
+			remoteInfo = SocialTD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BEB5BF31D31F961006FBDB8 /* SocialTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEB5BF61D31F962006FBDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BEB5BF81D31F962006FBDB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BEB5BFB1D31F962006FBDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BEB5BFD1D31F962006FBDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BEB5C001D31F962006FBDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BEB5C021D31F962006FBDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEB5C071D31F962006FBDB8 /* SocialTDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialTDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEB5C0B1D31F962006FBDB8 /* SocialTDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTDTests.swift; sourceTree = "<group>"; };
+		2BEB5C0D1D31F962006FBDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEB5C121D31F962006FBDB8 /* SocialTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEB5C161D31F962006FBDB8 /* SocialTDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTDUITests.swift; sourceTree = "<group>"; };
+		2BEB5C181D31F962006FBDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BEB5BF01D31F961006FBDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEB5C041D31F962006FBDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEB5C0F1D31F962006FBDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BEB5BEA1D31F961006FBDB8 = {
+			isa = PBXGroup;
+			children = (
+				2BEB5BF51D31F961006FBDB8 /* SocialTD */,
+				2BEB5C0A1D31F962006FBDB8 /* SocialTDTests */,
+				2BEB5C151D31F962006FBDB8 /* SocialTDUITests */,
+				2BEB5BF41D31F961006FBDB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BEB5BF41D31F961006FBDB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BEB5BF31D31F961006FBDB8 /* SocialTD.app */,
+				2BEB5C071D31F962006FBDB8 /* SocialTDTests.xctest */,
+				2BEB5C121D31F962006FBDB8 /* SocialTDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BEB5BF51D31F961006FBDB8 /* SocialTD */ = {
+			isa = PBXGroup;
+			children = (
+				2BEB5BF61D31F962006FBDB8 /* AppDelegate.swift */,
+				2BEB5BF81D31F962006FBDB8 /* ViewController.swift */,
+				2BEB5BFA1D31F962006FBDB8 /* Main.storyboard */,
+				2BEB5BFD1D31F962006FBDB8 /* Assets.xcassets */,
+				2BEB5BFF1D31F962006FBDB8 /* LaunchScreen.storyboard */,
+				2BEB5C021D31F962006FBDB8 /* Info.plist */,
+			);
+			path = SocialTD;
+			sourceTree = "<group>";
+		};
+		2BEB5C0A1D31F962006FBDB8 /* SocialTDTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BEB5C0B1D31F962006FBDB8 /* SocialTDTests.swift */,
+				2BEB5C0D1D31F962006FBDB8 /* Info.plist */,
+			);
+			path = SocialTDTests;
+			sourceTree = "<group>";
+		};
+		2BEB5C151D31F962006FBDB8 /* SocialTDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BEB5C161D31F962006FBDB8 /* SocialTDUITests.swift */,
+				2BEB5C181D31F962006FBDB8 /* Info.plist */,
+			);
+			path = SocialTDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BEB5BF21D31F961006FBDB8 /* SocialTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEB5C1B1D31F962006FBDB8 /* Build configuration list for PBXNativeTarget "SocialTD" */;
+			buildPhases = (
+				2BEB5BEF1D31F961006FBDB8 /* Sources */,
+				2BEB5BF01D31F961006FBDB8 /* Frameworks */,
+				2BEB5BF11D31F961006FBDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialTD;
+			productName = SocialTD;
+			productReference = 2BEB5BF31D31F961006FBDB8 /* SocialTD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BEB5C061D31F962006FBDB8 /* SocialTDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEB5C1E1D31F962006FBDB8 /* Build configuration list for PBXNativeTarget "SocialTDTests" */;
+			buildPhases = (
+				2BEB5C031D31F962006FBDB8 /* Sources */,
+				2BEB5C041D31F962006FBDB8 /* Frameworks */,
+				2BEB5C051D31F962006FBDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BEB5C091D31F962006FBDB8 /* PBXTargetDependency */,
+			);
+			name = SocialTDTests;
+			productName = SocialTDTests;
+			productReference = 2BEB5C071D31F962006FBDB8 /* SocialTDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BEB5C111D31F962006FBDB8 /* SocialTDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEB5C211D31F962006FBDB8 /* Build configuration list for PBXNativeTarget "SocialTDUITests" */;
+			buildPhases = (
+				2BEB5C0E1D31F962006FBDB8 /* Sources */,
+				2BEB5C0F1D31F962006FBDB8 /* Frameworks */,
+				2BEB5C101D31F962006FBDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BEB5C141D31F962006FBDB8 /* PBXTargetDependency */,
+			);
+			name = SocialTDUITests;
+			productName = SocialTDUITests;
+			productReference = 2BEB5C121D31F962006FBDB8 /* SocialTDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BEB5BEB1D31F961006FBDB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Gisser";
+				TargetAttributes = {
+					2BEB5BF21D31F961006FBDB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MX5J44Z9XT;
+					};
+					2BEB5C061D31F962006FBDB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2BEB5BF21D31F961006FBDB8;
+					};
+					2BEB5C111D31F962006FBDB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2BEB5BF21D31F961006FBDB8;
+					};
+				};
+			};
+			buildConfigurationList = 2BEB5BEE1D31F961006FBDB8 /* Build configuration list for PBXProject "SocialTD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BEB5BEA1D31F961006FBDB8;
+			productRefGroup = 2BEB5BF41D31F961006FBDB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BEB5BF21D31F961006FBDB8 /* SocialTD */,
+				2BEB5C061D31F962006FBDB8 /* SocialTDTests */,
+				2BEB5C111D31F962006FBDB8 /* SocialTDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BEB5BF11D31F961006FBDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEB5C011D31F962006FBDB8 /* LaunchScreen.storyboard in Resources */,
+				2BEB5BFE1D31F962006FBDB8 /* Assets.xcassets in Resources */,
+				2BEB5BFC1D31F962006FBDB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEB5C051D31F962006FBDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEB5C101D31F962006FBDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BEB5BEF1D31F961006FBDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEB5BF91D31F962006FBDB8 /* ViewController.swift in Sources */,
+				2BEB5BF71D31F962006FBDB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEB5C031D31F962006FBDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEB5C0C1D31F962006FBDB8 /* SocialTDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEB5C0E1D31F962006FBDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEB5C171D31F962006FBDB8 /* SocialTDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BEB5C091D31F962006FBDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BEB5BF21D31F961006FBDB8 /* SocialTD */;
+			targetProxy = 2BEB5C081D31F962006FBDB8 /* PBXContainerItemProxy */;
+		};
+		2BEB5C141D31F962006FBDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BEB5BF21D31F961006FBDB8 /* SocialTD */;
+			targetProxy = 2BEB5C131D31F962006FBDB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BEB5BFA1D31F962006FBDB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BEB5BFB1D31F962006FBDB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BEB5BFF1D31F962006FBDB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BEB5C001D31F962006FBDB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BEB5C191D31F962006FBDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BEB5C1A1D31F962006FBDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BEB5C1C1D31F962006FBDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SocialTD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgisser.SocialTD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2BEB5C1D1D31F962006FBDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SocialTD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgisser.SocialTD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2BEB5C1F1D31F962006FBDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialTDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgisser.SocialTDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialTD.app/SocialTD";
+			};
+			name = Debug;
+		};
+		2BEB5C201D31F962006FBDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialTDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgisser.SocialTDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialTD.app/SocialTD";
+			};
+			name = Release;
+		};
+		2BEB5C221D31F962006FBDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialTDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgisser.SocialTDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialTD;
+			};
+			name = Debug;
+		};
+		2BEB5C231D31F962006FBDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialTDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgisser.SocialTDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialTD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BEB5BEE1D31F961006FBDB8 /* Build configuration list for PBXProject "SocialTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEB5C191D31F962006FBDB8 /* Debug */,
+				2BEB5C1A1D31F962006FBDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEB5C1B1D31F962006FBDB8 /* Build configuration list for PBXNativeTarget "SocialTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEB5C1C1D31F962006FBDB8 /* Debug */,
+				2BEB5C1D1D31F962006FBDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BEB5C1E1D31F962006FBDB8 /* Build configuration list for PBXNativeTarget "SocialTDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEB5C1F1D31F962006FBDB8 /* Debug */,
+				2BEB5C201D31F962006FBDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BEB5C211D31F962006FBDB8 /* Build configuration list for PBXNativeTarget "SocialTDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEB5C221D31F962006FBDB8 /* Debug */,
+				2BEB5C231D31F962006FBDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BEB5BEB1D31F961006FBDB8 /* Project object */;
+}
